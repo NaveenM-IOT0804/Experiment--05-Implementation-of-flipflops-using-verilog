@@ -119,11 +119,13 @@ Toggle flip flop
 The toggle, or T, flip-flop is a two-input flip-flop . The inputs are the toggle (T) input and a clock (CLK) input. If the toggle input is HIGH, the T flip-flop changes state (toggles) when the clock signal is applied. If the toggle input is LOW, the T flip-flop holds the previous state. T flip-flop symbol.
 
 ### PROGRAM 
+```
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 Developed by: Naveen M
 RegisterNumber: 22000748
 */
+
 SR flip flop:
 
 module exp5i(s,r,clk,q, qbar);
@@ -172,7 +174,7 @@ nand(y,dbar,clk);
 nand(q,x,qbar);
 nand(qbar,y,q);
 endmodule
-
+```
 
 ### RTL LOGIC FOR FLIPFLOPS 
 
